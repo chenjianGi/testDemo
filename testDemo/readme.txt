@@ -10,6 +10,7 @@
    9)查看页面右上角，是否在最上方新插入一条记录，点击标题，进入详细页面
    11)验证标题和文本内容，判断图片资源是否存在，是否准确 
    
+
 实现:
     1)静态页面元素封装在页面对象属性中，定位元素参数写在yaml文件中，数据类型为Map<String,Map<String,String>>
       定位类型包含id,name,xpath,className,linkText,cssSelector,partialLinkText和selenium定位方式一一对应
