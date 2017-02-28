@@ -1,0 +1,21 @@
+#信息详细页面
+
+#标题区域
+p_title: 
+  type:id
+  value:title
+
+#内容区域
+p_content: 
+  type:id
+  value:content
+  
+#图片区域
+p_img: 
+  type:id
+  value:img
+  
+#图片内容
+c_img:
+  type:cssSelector
+  value:"html>body.sub_body>div#sub_container>div.sub_C>p#img.n_pic>img"

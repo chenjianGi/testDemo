@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	
+	
+	<addOne>
+		<browser>firefox</browser>
+		<title>chenjian1</title>
+		<content>chenjian111</content>
+		<imgSrc>E:\\win8常见问题\\qqq.jpg</imgSrc>
+	</addOne>
+	
+	
+	<addOne>
+		<browser>chrome</browser>
+		<title>chenjian2</title>
+		<content>chenjian222</content>
+		<imgSrc>E:\\win8常见问题\\115_S.jpg</imgSrc>
+	</addOne>
+	
+</data>

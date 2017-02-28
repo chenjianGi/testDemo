@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="testDemo"
+  id="myeclipse.1487383574881"
+  context-root="/WebDriverDemo7"
+  j2ee-spec="5.0"
+  archive="testDemo.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

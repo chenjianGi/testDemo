@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AddNews">
+	<!-- <listeners>
+		<listener class-name="systemPublic.listener.ITestListener.TestListener"></listener>
+	</listeners> -->
+	<test name="AddNews">
+		
+		<classes>
+			<class name="chenjian.tests.AddNews" />
+		</classes>
+	</test>
+</suite>

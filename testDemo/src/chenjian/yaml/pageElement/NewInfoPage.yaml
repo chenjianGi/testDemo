@@ -1,0 +1,26 @@
+#后台点击新建出来的最新动态维护页面
+
+#标题输入框
+title:
+  type:id
+  value:title
+
+#内容输入框
+content:
+  type:id
+  value:content
+ 
+#"上传"按钮
+addFile:
+  type:cssSelector
+  value:"table.zxblTable>tbody>tr>td>input[type='button'][onclick='addFile()'][value='上传']"
+  
+#"确定"按钮
+confirm:
+  type:cssSelector
+  value:"table.zxblTable>tbody>tr>td>input.lButton.lButton1[type='button'][onclick='subContent()'][value='确定']"
+  
+#"关闭"按钮
+close:
+  type:cssSelector
+  value:"table.zxblTable>tbody>tr>td>input.lButton.lButton1[type='button'][onclick='javaScript:window.close()'][value='关闭']"

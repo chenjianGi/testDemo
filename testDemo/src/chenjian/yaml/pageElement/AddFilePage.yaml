@@ -1,0 +1,16 @@
+#添加附件页面
+
+#浏览按钮
+scan:
+  type:id
+  value:file
+  
+#确定按钮
+confirm:
+  type:id
+  value:sub
+  
+#取消按钮
+cancel:
+  type:cssSelector
+  value:"table.zxblTable>tbody>tr>td>input.an1[value='取消']"

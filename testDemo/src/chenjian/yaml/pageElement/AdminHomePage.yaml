@@ -1,0 +1,31 @@
+#后台主页面
+
+#新建按钮,注意有特殊字符的要加双引号
+newOne: 
+  type:cssSelector
+  value:"tbody#tbody_id1>tr>td>input.lButton.lButton1[value='新建']"
+
+#查看按钮
+check: 
+  type:cssSelector
+  value:"tbody#tbody_id1>tr>td>input.lButton.lButton1[value='查看']"
+  
+#查询按钮
+query:
+  type:cssSelector
+  value:"tbody#tbody_id1>tr>td>input.lButton.lButton2[value='查询']"
+  
+#测试js执行
+number1:
+  type:js
+  value:"alert(arguments[0])"
+
+#通过序号后面的标题关联得到序号按钮
+sequence:
+  type:js
+  value:"$('td:contains(%s)').parent().find('input[name=id]').attr('checked','checked')"
+
+#第一条信息序号
+number:
+  type:cssSelector
+  value:"tbody#tbody_id1>tr>td>input[type=radio][name=id]"

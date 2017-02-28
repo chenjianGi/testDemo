@@ -1,0 +1,6 @@
+#前台主页面
+
+#滚动新闻底下的标题链接
+newsBoxLink: 
+  type:linkText 
+  value:%s

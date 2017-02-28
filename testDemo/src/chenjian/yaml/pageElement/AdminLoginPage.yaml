@@ -1,0 +1,21 @@
+#后台登录页面
+
+#用户名输入框
+userName: 
+  type:id 
+  value:userName
+
+#密码输入框
+userPass: 
+  type:id
+  value:userPass
+
+#登录按钮
+login:
+  type:name
+  value:登录
+
+#重置按钮
+reset:
+  type:name
+  value:重置
