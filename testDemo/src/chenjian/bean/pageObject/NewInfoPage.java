@@ -11,6 +11,7 @@ import systemPublic.utilities.Utilitys;
  * 		后台“新建”，“修改”，“删除”，“查看”共用了这个页面
  * */
 
+
 public class NewInfoPage extends PageObject{
 
 	public static String getPageTitle() {
